@@ -1,0 +1,19 @@
+button{
+    background: var(--color-golden);
+    border: 1px solid var(--color-golden);
+    border-radius: 5px ;
+    font-size: 12px;
+    width: 147px;
+    height: 44px;
+    transition: black 0.25s ease;
+    cursor: pointer;
+
+}
+
+
+
+
+button:hover {
+    transition: black 0.25s ease;
+    box-shadow: 17px 7px 84px 1px rgb(247, 210, 131,0.5);
+}

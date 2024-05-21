@@ -1,0 +1,54 @@
+/* CSS Modules */
+.app__header {
+    background: var(--color-black);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app__wrapper_info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.app__wrapper_info p {
+    margin: 3rem 0;
+    max-width: 453px;
+}
+
+.app__wrapper_info h4 {
+    /* Chase the new Flavour */
+    width: 100%;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin: 2rem 0; /* Add margin here */
+/* Add margin here */
+}
+
+
+
+.app__wrapper_img {
+    flex: 1;
+    display: flex;
+
+}
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+
+
+@media screen and (max-width:650px) {
+
+}
