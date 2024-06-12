@@ -1,0 +1,114 @@
+
+.app__specialmenu {
+    background-color: var(--color-black);
+     flex-direction: column;
+}
+
+.app__specialmenu__header {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: 2rem;
+
+}
+
+.app__specialmenu__header h2{
+    font-family: var(--font-base);
+
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+}
+.app__specialmenu_content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* width: 100%; */
+    text-align: left;
+
+}
+.app__specialmenu_content_wine,
+.app__specialmenu_content_cocktail{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.app__specialmenu_content_wine_title ,
+.app__specialmenu_content_cocktail_title {
+    color: #FFF;
+    /* Wine & Beer */
+font-family: var(--font-base);
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height:58.5px;
+/* or 58px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+margin: 2rem 0;
+text-align: left;
+
+}
+
+.app__specialmenu_content_img {
+    margin: 0 2rem;
+    width: 410px;
+}
+.app__specialmenu_content_img img {
+    height: auto;
+    width: 100%;
+}
+
+.app__specialmenu_menu_container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    /* width: 100%; */
+    align-items: center;
+}
+@media screen and (max-width: 2000px) {
+    .app__specialmenu_content {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        align-items: center;
+        /* width: 100%; */
+    }
+    .app__specialmenu_content_img {
+        margin: 3rem 0;
+     } 
+}
+
+@media screen and (max-width: 1150px) {
+ .app__specialmenu_content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+ .app__specialmenu_content_img {
+    margin: 3rem 0;
+ }
+}
+@media screen and (max-width: 650px) {
+    .app__specialmenu_content_img {
+        width: 100%;
+    }
+
+    .app__specialmenu__header {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}

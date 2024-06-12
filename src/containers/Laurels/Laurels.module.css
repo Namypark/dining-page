@@ -1,1 +1,94 @@
 /* CSS Modules */
+.app__laurels {
+    display: flex;
+    flex-direction: column;
+    position : relative;
+}
+.logo img {
+
+position: absolute;
+width: 146px;
+height: 146px;
+left: 63px;
+top: 55px;
+
+
+}
+.app__laurels_container {
+    margin-top: 3rem;
+}
+
+.app__laurel_awards {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+
+    width: 100%;
+    flex-direction: column;
+}
+.app__laurel_awards h1 {
+    margin-bottom: 4rem;
+}
+.app__laurel_awards_top {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+
+.app__laurel_photo {
+    /* height: 691px; */
+    width: 100%
+}
+.app__laurel_photo img{
+    width: 80%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:1500px) {
+    .app__laurels_container {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__laurel_awards {
+        justify-content: center;
+        align-items: center;
+    }
+    .app__laurel_photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 0 0;
+    }
+    .app__laurel_photo img {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .app__laurel_awards_top {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .app__laurel_photo img {
+        width: 80%;
+    }
+    .logo {
+        margin-bottom: 5rem;
+    }
+    .logo img {
+        margin: 0  0 0 4rem;
+    }
+    .app__laurel_photo  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

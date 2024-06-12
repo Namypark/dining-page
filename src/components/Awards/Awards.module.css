@@ -1,0 +1,42 @@
+.app__awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.app__awards_logo_award {
+    width: 80px;
+    height: 80px
+}
+
+.app__awards_logo_award img {
+    width: 100%
+}
+.app__awards_text {
+    padding: 1rem;
+    margin: 2rem 2rem;
+}
+.app__awards_text h5 {
+    color: var(--color-golden);
+    margin-bottom: 1rem;
+}
+
+.app__awards_text p {
+    /* Lorem ipsum dolor sit amet, consectetur. */
+color: var(--color-grey);
+width: 100%;
+height: 56px;
+
+}
+
+
+@media screen and (max-width:1500px) {
+    .app__awards_text p {
+        width: 100%;
+    }
+    .app__awards_logo_award img {
+        width: 80%
+    }
+
+}

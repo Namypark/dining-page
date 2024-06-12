@@ -1,4 +1,5 @@
 import SubHeading from './SubHeading/SubHeading';
+import Awards from './Awards/Awards';
 import Newsletter from './Footer/Newsletter';
 import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
@@ -11,5 +12,6 @@ export {
   FooterOverlay,
   MenuItem,
   Navbar,
-  Button
+  Button,
+  Awards,
 };

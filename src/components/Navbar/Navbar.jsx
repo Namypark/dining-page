@@ -16,10 +16,10 @@ const Navbar = () => {
         <a href="#home">
           <li className={`${styles.p__opensans} p__opensans`}>Home</li>
         </a>
-        <a href="about">
+        <a href="#about">
           <li className={`${styles.p__opensans} p__opensans`}>About</li>
         </a>
-        <a href="menu">
+        <a href="#menu">
           <li className={`${styles.p__opensans} p__opensans`}>Menu</li>
         </a>
         <a href="#awards">
@@ -35,7 +35,7 @@ const Navbar = () => {
         </a>
         <div />
         <a href="/" className="p__opensans">
-          Book Table v
+          Book Table
         </a>
       </div>
       <div className={styles.app__navbar_smallscreen}>

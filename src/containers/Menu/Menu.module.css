@@ -1,1 +1,78 @@
 /* CSS Modules */
+
+.app__menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.app__menu_description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app__menu_description p{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+
+    /* Chapel Hill Shiraz */;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* H5 23px Cormorant Upright */
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+/* identical to box height, or 30px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+text-align: left;
+}
+.app__menu_description_title {
+    flex: 1;
+}
+.app__menu_description div {
+    height:1px;
+    width: 90px;
+    color: #fff;
+    background-color: #fff;
+    background:#fff ;
+    margin: 0 2rem;
+}
+.app__menu_amount {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__menu_sub {
+    /* AU | Bottle */
+width: 100%;
+height: 28px;
+margin-top: 0.2rem;
+/* Body 16px Regular */
+font-family: var(--font-base);
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+color:var(--color-gray)
+
+}
+
+
+/* $56 */
+
+@media screen and (max-width: 900px) {
+    .app__menu {
+        width: 100%;
+    }
+
+}
