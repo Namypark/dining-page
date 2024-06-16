@@ -1,5 +1,5 @@
 import images from "../../constants/images";
-import styles from "./SubHeading.module.css";
+
 const SubHeading = ({ title }) => {
   return (
     <div style={{ marginBottom: "1rem" }}>

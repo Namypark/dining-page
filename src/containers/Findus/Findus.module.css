@@ -1,1 +1,73 @@
 /* CSS Modules */
+.app__findus {}
+
+.app__findus_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 4rem;
+}
+
+.text__cormant {
+    color: var(--color-grey);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    /* Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG */
+    /* 
+    width: 513px;
+    height: 28px; */
+
+    /* Body 16px Regular */
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* identical to box height, or 28px */
+    letter-spacing: 0.04em;
+}
+
+.header__text {
+    color: var(--color-golden);
+    /* Opening Hours */
+    /* 
+    width: 148px;
+    height: 30px; */
+    margin-bottom: 1rem;
+    /* H5 23px Cormorant Upright */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+}
+
+.date__text {
+    color: #fff;
+    /* Mon - Fri: 10:00 am - 02:00 am */
+    /* 
+width: 244px;
+height: 28px; */
+
+    /* Body 16px Regular */
+    font-family: var(--font-alt);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* identical to box height, or 28px */
+    letter-spacing: 0.04em;
+    margin: 1rem 0;
+}
+
+.app__button {
+    margin-top: 4rem;
+}
